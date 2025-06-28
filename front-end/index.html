@@ -7,7 +7,7 @@
     <script type="module" src="./js/misComprobantes.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Biblioteca</title>
 </head>
 <body>
     
@@ -18,6 +18,9 @@
     <div class="menu">
         <div class="menu-section">
             <div class="menu-section-title">Libros</div>
+            <div id="opcBuscar" class="opc-menu"><button><a href="libros/agregarlibro">Agregar Libro</a></button></div>
+            <div id="opcNuevo" class="opc-menu"><button><a href="libros/modificarlibro">Modificar Libro</a></button></div>
+            <div class="opc-menu"><button><a href="libros/eliminarlibro">Eliminar Libro</a></button></div>
             <div id="opcBuscar" class="opc-menu">Agregar</div>
             <div id="opcNuevo" class="opc-menu">Modificar</div>
             <div class="opc-menu">Eliminar</div>
@@ -25,16 +28,16 @@
     
         <div class="menu-section">
             <div class="menu-section-title">Prestamos</div>
-            <div class="opc-menu">Solicitar</div>
-            <div class="opc-menu">Eliminar</div>
-            <div class="opc-menu">Historial</div>
+            <div class="opc-menu"><button><a href="prestamos/solicitarprestamo">Solicitar Prestamo</a></button></div>
+            <div class="opc-menu"><button><a href="prestamos/eliminarprestamo">Eliminar Prestamo</a></button></div>
+            <div class="opc-menu"><button><a href="prestamos/historialprestamo">Historial de Prestamos</a></button></div>
         </div>
 
         <div class="menu-section">
             <div class="menu-section-title">Alumnos</div>
-            <div class="opc-menu">Agregar</div>
-            <div class="opc-menu">Modificar</div>
-            <div class="opc-menu">Eliminar</div>
+            <div class="opc-menu"><button><a href="alumnos/agregaralumnos">Agregar Alumnos</a></button></div>
+            <div class="opc-menu"><button><a href="alumnos/modificaralumnos">Modificar Alumnos</a></button></div>
+            <div class="opc-menu"><button><a href="alumnos/eliminaralumnos">Eliminar Alumnos</a></button></div>
         </div>
 
         <div class="menu-section">
