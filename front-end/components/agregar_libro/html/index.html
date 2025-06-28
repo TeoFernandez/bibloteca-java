@@ -1,24 +1,22 @@
-<div>
-    <h2>Agregar Libro</h2>
-    <form id="formAgregarLibro">
-        <label for="titulo">Título:</label>
+<div id="componenteAgregarLibro">
+    <div class="formulario-izq">
+        <label for="titulo">Título: </label>
         <input type="text" id="titulo" name="titulo" required>
 
-        <label for="autor">Autor:</label>
+        <label for="autor">Autor: </label>
         <input type="text" id="autor" name="autor" required>
 
-        <label for="fechaPublicacion">Fecha de Publicación:</label>
+        <label for="fechaPublicacion">Fecha de Publicación: </label>
         <input type="date" id="fechaPublicacion" name="fechaPublicacion" required>
 
-        <label for="genero">Género:</label>
+        <label for="genero">Género: </label>
         <select id="genero" name="genero">
             <option value="Ficción">Ficción</option>
             <option value="No Ficción">No Ficción</option>
             <option value="Ciencia">Ciencia</option>
             <option value="Historia">Historia</option>
-            <option value="Biografía">Biografía</option>
         </select>
 
-        <button type="submit">Agregar Libro</button>
-    </form>
+        <button id="btnAgregarLibro" class="btn">Agregar Libro</button>
+    </div>
 </div>
